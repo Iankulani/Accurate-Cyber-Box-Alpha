@@ -166,3 +166,15 @@ Accurate-Cyber-Box is not just another penetration testing tool — it’s a com
 From government agencies defending national networks, to corporations protecting sensitive data, to educators shaping the next generation of ethical hackers — Accurate-Cyber-Box offers the precision, scalability, and adaptability required to stay one step ahead of cyber adversaries.
 
 In an environment where the only constant is change, Accurate-Cyber-Box ensures that your defenses are not just reactive, but proactive, tested, and ready for anything.
+
+
+
+**How to Clone the Repo**
+
+git clone https://github.com/Iankulani/Accurate-Cyber-Box-Alpha.git
+
+cd Accurate-Cyber-Box-Alpha  
+
+**How to run**
+
+python3 Accurate-Cyber-Box-Alpha.py
