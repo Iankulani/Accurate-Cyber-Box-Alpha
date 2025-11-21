@@ -5,7 +5,7 @@ It empowers cybersecurity teams to not only detect and patch vulnerabilities but
 
 The name "Accurate-Cyber-Box" is no accident. It’s a nod to the precision and thoroughness with which the tool conducts assessments — providing accurate results, actionable insights, and a modular “box” of capabilities that can be tailored to different operational needs. By combining the core principles of penetration testing, incident simulation, and communication integration, it offers a full-spectrum solution for modern cyber readiness.
 
-**Core Capabilities**
+## Core Capabilities
 
 Accurate-Cyber-Box is built on four key pillars of cybersecurity readiness: Penetration Testing, Cyber Drills, MCP Server Integration, and Real-Time Communication via Telegram.
 
@@ -14,19 +14,19 @@ At the heart of Accurate-Cyber-Box lies a comprehensive penetration testing modu
 
 
 
-Network Scanning (IPv4 and IPv6 targets)
+* Network Scanning (IPv4 and IPv6 targets)
 
-Vulnerability Assessment with CVE mapping
+* Vulnerability Assessment with CVE mapping
 
-Exploitation Framework Integration (supports custom exploit scripts)
+* Exploitation Framework Integration (supports custom exploit scripts)
 
-Credential Brute-forcing for common protocols
+* Credential Brute-forcing for common protocols
 
-Post-exploitation Simulation to assess potential data exfiltration risks
+* Post-exploitation Simulation to assess potential data exfiltration risks
 
-Unlike basic scanners, the Accurate-Cyber-Box penetration testing engine prioritizes accuracy over false positives, ensuring that the vulnerabilities flagged are real and exploitable, rather than theoretical.
+* Unlike basic scanners, the Accurate-Cyber-Box penetration testing engine prioritizes accuracy over false positives, ensuring that the vulnerabilities flagged are real and exploitable, rather than theoretical.
 
-**2. Cyber Drill Simulation**
+## 2. Cyber Drill Simulation
  
 Penetration testing alone can reveal weaknesses, but true readiness comes from testing how teams react under pressure. Accurate-Cyber-Box’s cyber drill module allows security managers to conduct realistic simulations of cyber incidents.
 
@@ -42,7 +42,7 @@ Performance Metrics – Track detection time, mitigation speed, and communicatio
 
 With cyber drills, organizations can identify procedural weaknesses, improve collaboration across departments, and measure improvements over time.
 
-**3. MCP Server Integration**
+## MCP Server Integration
 
 One of the unique strengths of Accurate-Cyber-Box is its native integration with MCP (Model Context Protocol) servers. This integration enables:
 
@@ -61,7 +61,7 @@ By leveraging MCP integration, Accurate-Cyber-Box eliminates the traditional com
 4. Telegram App Configuration
 In an age where speed of communication can determine the difference between a controlled incident and a full-scale breach, Accurate-Cyber-Box integrates directly with the Telegram messaging platform.
 
-**Through this integration:**
+## Through this integration
 
 Real-Time Alerts – Receive instant notifications on detected vulnerabilities, ongoing penetration test results, or simulated incident progress.
 
@@ -73,27 +73,27 @@ Incident Collaboration – Create dedicated Telegram channels for drill particip
 
 This integration ensures that even when teams are not physically present in a Security Operations Center (SOC), they remain connected and responsive.
 
-**Technical Architecture**
+## Technical Architecture
 
 Accurate-Cyber-Box is built with Python at its core for flexibility and extensive library support, combined with modular microservices that allow for rapid expansion.
 
-**The architecture includes:**
+## The architecture includes
 
 Core Engine – Handles scanning, exploitation, and reporting.
 
-Drill Orchestrator – Manages the lifecycle of simulated cyber incidents.
+* Drill Orchestrator – Manages the lifecycle of simulated cyber incidents.
 
-MCP Connector – Facilitates communication between Accurate-Cyber-Box and the MCP server.
+* MCP Connector – Facilitates communication between Accurate-Cyber-Box and the MCP server.
 
-Telegram Interface – Secure bot system for alerts and command execution.
+* Telegram Interface – Secure bot system for alerts and command execution.
 
-Database Layer – Stores test configurations, results, and historical drill performance data.
+* Database Layer – Stores test configurations, results, and historical drill performance data.
 
-Plugin System – Allows the addition of custom modules without modifying core code.
+* Plugin System – Allows the addition of custom modules without modifying core code.
 
 This modular architecture ensures that Accurate-Cyber-Box can evolve as new attack techniques emerge, without requiring a full system overhaul.
 
-**Use Cases**
+## Use Cases
 
 Accurate-Cyber-Box has been designed for flexibility, making it applicable across multiple cybersecurity domains:
 
@@ -136,31 +136,31 @@ Hybrid for combining internal and external resources.
 
 With MCP integration, it scales effortlessly from small single-team setups to large, multi-organization drills involving hundreds of participants.
 
-**Benefits**
+## Benefits
 
 Comprehensive Cyber Preparedness – Combines proactive testing and team readiness.
 
-Realistic Attack Simulations – Mirrors modern attacker techniques.
+* Realistic Attack Simulations – Mirrors modern attacker techniques.
 
-Seamless Communication – Integrated Telegram alerts keep teams connected.
+* Seamless Communication – Integrated Telegram alerts keep teams connected.
 
-Centralized Management – MCP integration streamlines control.
+* Centralized Management – MCP integration streamlines control.
 
-Scalable and Modular – Adapts to new threats and organizational growth.
+* Scalable and Modular – Adapts to new threats and organizational growth.
 
-**Future Roadmap**
+## Future Roadmap
 
 The Accurate-Cyber-Box development roadmap includes:
 
-AI-Driven Threat Prediction – Use machine learning to suggest likely attack vectors.
+* AI-Driven Threat Prediction – Use machine learning to suggest likely attack vectors.
 
-Integration with SIEM Systems – Automatically feed results into existing monitoring tools.
+* Integration with SIEM Systems – Automatically feed results into existing monitoring tools.
 
-Gamified Cyber Drills – Encourage participation through scoreboards and achievement tracking.
+* Gamified Cyber Drills – Encourage participation through scoreboards and achievement tracking.
 
-Multi-Language Support – Expand usability in global environments.
+* Multi-Language Support – Expand usability in global environments.
 
-**Conclusion**
+## Conclusion
 Accurate-Cyber-Box is not just another penetration testing tool — it’s a complete cyber readiness ecosystem. By merging penetration testing, realistic cyber drills, MCP server integration, and instant communication via Telegram, it delivers a powerful, precise, and practical solution for modern cybersecurity challenges.
 
 From government agencies defending national networks, to corporations protecting sensitive data, to educators shaping the next generation of ethical hackers — Accurate-Cyber-Box offers the precision, scalability, and adaptability required to stay one step ahead of cyber adversaries.
@@ -169,12 +169,14 @@ In an environment where the only constant is change, Accurate-Cyber-Box ensures 
 
 
 
-**How to Clone the Repo**
-
+## How to Clone the Repo
+```bash
 git clone https://github.com/Iankulani/Accurate-Cyber-Box-Alpha.git
 
 cd Accurate-Cyber-Box-Alpha  
+```
 
-**How to run**
-
+## How to run
+```bash
 python3 Accurate-Cyber-Box-Alpha.py
+```
